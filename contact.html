@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+ 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.5; user-scalable=1;" /> 
+	<title>Title page</title>	
+	
+ 	<!-- CSS --> 
+	<link href="css/bootstrap.min.css"  rel='stylesheet' type='text/css'/>
+	<link href="css/font-awesome.min.css" rel='stylesheet' type='text/css'/>  
+	<link href="css/global.css" rel='stylesheet' type='text/css'/>	
+
+	<!-- JS --> 
+	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> 
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>  
+	<script src="js/jquery.placeholder.js"></script>
+	<script> 
+		$(function() { 
+			$('input, textarea').placeholder({customClass:'my-placeholder'});			
+		});
+	</script>  
+</head>
+
+<body> 	 
+	<header>
+		<div class="top-header"> 
+			<div class="container"> 
+				<div class="col-sm-6 col-xs-8 col-logo"> 
+					<a href="index.html" title=""><img src="images/logo.png" alt=""></a>
+				</div>
+				<div class="col-sm-6 col-xs-4 col-language">
+				 	<div class="dropdown language-selector">  
+				 		<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-close-others="true">
+				 			<img src="images/France.png" />
+				 			<span>FR</span>
+				 		</a> 
+				 		<i class="fa fa-caret-down"></i>
+				 		<ul class="dropdown-menu"> 
+				 			<li>
+				 				<a href="#"> <img src="images/Uk.png" /> <span>EN</span> </a>
+				 			</li>
+				 			<li class="active">
+				 				<a href="#"> <img src="images/France.png" /> <span>FR</span> </a>
+				 			</li>  
+				 		</ul>
+				 	</div>
+				</div>
+			</div>
+		</div><!-- /.top-header -->	
+		<div class="container-fluid header-main">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-sm-12 menu-main"> 
+						<nav> 
+							<div class="row">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-main" aria-expanded="false">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+								<div class="navbar-collapse collapse nav-main"> 
+									<ul class="nav navbar-nav text-uppercase">
+										<li class="active"><a href="index.html"><i class="fa fa-home"></i></a></li>  
+										<li><a href="apropos.html">À PROPOS</a></li>
+										<li><a href="le-reseau.html">LE RÉSEAU </a></li>
+										<li><a href="service.html">SERVICES</a></li>
+										<li><a href="reference.html">RÉFÉRENCES</a></li>
+										<li><a href="news.html">NEWS</a></li>
+										<li><a href="contact.html">CONTACT</a></li>
+									</ul>   
+								</div><!-- /.nav-main -->
+							</div>	 
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div> 
+		<div class="bottom-header">
+			<div class="container"> </div>
+		</div><!-- /.bottom-header -->	
+	</header>
+	
+	<div class="social-fixed hidden-xs hidden-xs"> 
+		<div class="inner-fix">
+			<a href="#" target="_blank"><i class="fa fa-phone"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-envelope"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+			<a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+		</div>	
+	</div><!--social-fixed-->     
+
+	<section> 
+		<div class="container"> 
+			<div class="title-clear">
+				<h2>Contact</h2>
+				<div class="line-clear clearfix"><span> </span></div>
+			</div>  
+			<div class="form-home-contact"> 
+				<form>
+					<div class="row">
+						<div class="col-sm-6 form-group"> 
+							<input type="email" class="form-control" placeholder="Votre nom">
+						</div>
+						<div class="col-sm-6 form-group"> 
+							<input type="email" class="form-control" placeholder="Subjet">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 form-group"> 
+							<input type="email" class="form-control" placeholder="Votre  messagerie">
+						</div>
+						<div class="col-sm-6 form-group"> 
+							<input type="email" class="form-control" placeholder="Téléphone">
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-12 form-group"> 
+							<textarea class="form-control" rows="5" placeholder="Votre  message"></textarea>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-default btn-red">Envoyer</button>
+				</form>
+			</div>
+
+		</div> 
+	</section>
+
+	<footer id="footer">  
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3 ft-copyright"> 
+					 <img src="images/logo-footer.png" alt=""> 
+					<p>Copyrights © 2015 All Rights Reserved by EraiMonde Co.,Ltd.</p>
+				</div>
+
+				<div class="col-sm-6 ft-map-search"> 
+					<form class="form-inline form-search-area">
+						<div class="form-group">
+							<label for="">Chercher notre bureau dans le monde</label>  
+							<select class="form-control">
+								<option>Asie Pacifique</option>
+								<option>#option#</option>
+								<option>#option#</option>
+								<option>#option#</option>
+								<option>#option#</option>
+							</select> 
+							<button type="submit" class="btn-ic-send"><i class="fa fa-mail-forward"></i></button>  
+						</div> 
+					</form>					 
+					<div class="wrap-map-filter">
+						<img src="images/img-map-footer.png">
+						<div class="absolute area-01-min"><a href="#">Amérique du Nord</a></div>
+						<div class="absolute area-02-min"><a href="#">Amérique du Sud</a></div>
+						<div class="absolute area-03-min"><a href="#">Europe</a></div>
+						<div class="absolute area-04-min"><a href="#">CEI</a></div>
+						<div class="absolute area-05-min"><a href="#">Afrique</a></div>
+						<div class="absolute area-06-min"><a href="#">Moyen Orient</a></div>
+						<div class="absolute area-07-min"><a href="#">Asie Pacifique</a></div> 
+					</div><!-- wrap-map-filter --> 
+				</div><!-- ft-map-search -->
+
+				<div class="col-sm-3 info-company">
+					 <h3>ERAI Monde</h3>
+					 <address><i class="fa fa-map-marker"></i> 66 rue Cuvier - Lyon - 69006</address>
+					 <p><i class="fa fa-phone"></i><a href="tel:+33 4 78 70 54 95">+33 4 78 70 54 95</a></p>
+					 <p><i class="fa fa-envelope"></i><a href="mailto:info@erai-monde.com">info@erai-monde.com</a></p>
+					 <div class="social-links clearfix">
+					 	<a href="#"><i class="fa fa-phone"></i></a>
+					 	<a href="#"><i class="fa fa-envelope"></i></a>
+					 	<a href="#"><i class="fa fa-linkedin"></i></a>
+					 	<a href="#"><i class="fa fa-google-plus"></i></a>					
+					 </div>
+				</div><!-- info-company -->
+			</div>
+		</div> 
+	</footer> 
+
+</body>
+</html>
